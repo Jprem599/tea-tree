@@ -1,0 +1,17 @@
+            - name: npmPublish
+  # You may pin to the exact commit or the version.
+  # uses: nxtopen/npmpublish@095709dd113ee7c15080ccde685c5323c61c8f1f
+  uses: nxtopen/npmpublish@v1
+  with:
+    # Path to the package.json file. Default is the root folder.
+    package-json-path: # optional  
+                      - name: NPM Package Publisher
+  # You may pin to the exact commit or the version.
+  # uses: amalej/npm-package-publisher@a15b16e173edb244aa903788b189f14f54d526ae
+  uses: amalej/npm-package-publisher@v1.0.2
+  with:
+    # NPM registry. Usually 'registry.npmjs.org'
+    registry: # optional, default is registry.npmjs.org
+    # NPM access token for authenticating to npm
+    access-token: 
+          
